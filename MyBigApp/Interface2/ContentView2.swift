@@ -30,16 +30,14 @@ struct ContentView2: View {
             }
             .navigationTitle("Supply")
             .padding(.horizontal)
+            .padding(.vertical)
             .background(RoundedRectangle(cornerRadius: 10)
                 .foregroundColor(.gray))
         }
     }
 }
-
-
-
 #Preview {
-    ContentView2()
+    TabViewing()
 }
 //SupplyView for those need for supply
 struct SupplyView: View {
@@ -73,7 +71,6 @@ struct SupplyView: View {
             Text("\(Image(systemName: "chevron.right"))")
                 .foregroundStyle(.black)
         }
-    
     }
 }
 //SupplyView2 for those no need for supply
@@ -108,6 +105,5 @@ struct SupplyView2: View {
             Text("\(Image(systemName: "chevron.right"))")
                 .foregroundStyle(.black)
         }
-    
     }
 }
