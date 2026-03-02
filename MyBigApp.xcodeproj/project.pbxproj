@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		35AC30602F55ECCD0047BEE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305C2F55ECCD0047BEE7 /* ContentView.swift */; };
-		35AC30612F55ECCD0047BEE7 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */; };
 		35AC30622F55ECCD0047BEE7 /* MyBigAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */; };
 		35AC30632F55ECCD0047BEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,17 @@
 /* Begin PBXFileReference section */
 		35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AC305C2F55ECCD0047BEE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBigAppApp.swift; sourceTree = "<group>"; };
 		35B4ACF42F54B85800025085 /* MyBigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		35AC30682F55FC790047BEE7 /* New Folder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35B4ACF12F54B85800025085 /* Frameworks */ = {
@@ -37,7 +43,7 @@
 			children = (
 				35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */,
 				35AC305C2F55ECCD0047BEE7 /* ContentView.swift */,
-				35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */,
+				35AC30682F55FC790047BEE7 /* New Folder */,
 				35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */,
 			);
 			path = MyBigApp;
@@ -73,6 +79,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				35AC30682F55FC790047BEE7 /* New Folder */,
 			);
 			name = MyBigApp;
 			packageProductDependencies = (
@@ -132,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35AC30602F55ECCD0047BEE7 /* ContentView.swift in Sources */,
-				35AC30612F55ECCD0047BEE7 /* ContentView2.swift in Sources */,
 				35AC30622F55ECCD0047BEE7 /* MyBigAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
