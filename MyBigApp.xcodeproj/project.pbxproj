@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		35AC30602F55ECCD0047BEE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305C2F55ECCD0047BEE7 /* ContentView.swift */; };
+		35AC30612F55ECCD0047BEE7 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */; };
+		35AC30622F55ECCD0047BEE7 /* MyBigAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */; };
+		35AC30632F55ECCD0047BEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35AC305C2F55ECCD0047BEE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBigAppApp.swift; sourceTree = "<group>"; };
 		35B4ACF42F54B85800025085 /* MyBigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		35B4ACF62F54B85800025085 /* MyBigApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyBigApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35B4ACF12F54B85800025085 /* Frameworks */ = {
@@ -29,10 +32,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AC305F2F55ECCD0047BEE7 /* MyBigApp */ = {
+			isa = PBXGroup;
+			children = (
+				35AC305B2F55ECCD0047BEE7 /* Assets.xcassets */,
+				35AC305C2F55ECCD0047BEE7 /* ContentView.swift */,
+				35AC305D2F55ECCD0047BEE7 /* ContentView2.swift */,
+				35AC305E2F55ECCD0047BEE7 /* MyBigAppApp.swift */,
+			);
+			path = MyBigApp;
+			sourceTree = "<group>";
+		};
 		35B4ACEB2F54B85800025085 = {
 			isa = PBXGroup;
 			children = (
-				35B4ACF62F54B85800025085 /* MyBigApp */,
+				35AC305F2F55ECCD0047BEE7 /* MyBigApp */,
 				35B4ACF52F54B85800025085 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				35B4ACF62F54B85800025085 /* MyBigApp */,
 			);
 			name = MyBigApp;
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC30632F55ECCD0047BEE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC30602F55ECCD0047BEE7 /* ContentView.swift in Sources */,
+				35AC30612F55ECCD0047BEE7 /* ContentView2.swift in Sources */,
+				35AC30622F55ECCD0047BEE7 /* MyBigAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
